@@ -70,7 +70,6 @@ var principalAxes = (function() {
   var x = vec3.create();
   var y = vec3.create();
   var z = vec3.create();
-  console.log('---- why is that here - -- --')
   return function(go) {
     calculateCovariance(go, covariance);
     var q = geom.diagonalizer(covariance);
@@ -93,7 +92,6 @@ var principalAxes = (function() {
       return b[0] - a[0]; 
     });
     var xIndex = axes[0][1];
-    console.log(xIndex)
     var yIndex = axes[1][1];
     vec3.set(x, diag[xIndex + 0], diag[xIndex + 3], diag[xIndex + 6]);
     vec3.set(y, diag[yIndex + 0], diag[yIndex + 3], diag[yIndex + 6]);
@@ -102,8 +100,6 @@ var principalAxes = (function() {
     rotation[0] = x[0]; rotation[1] = y[0]; rotation[2] = z[0];
     rotation[3] = x[1]; rotation[4] = y[1]; rotation[5] = z[1];
     rotation[6] = x[2]; rotation[7] = y[2]; rotation[8] = z[2];
-    console.log('---------------------')
-    console.log(rotation)
     return rotation;
   };
 })();

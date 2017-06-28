@@ -551,15 +551,12 @@ Viewer.prototype = {
       mat4.mul(targetRotation4, targetRotation4, this._cam.rotation());
       if (ms === 0) {
         this._cam.setRotation(targetRotation4);
-        console.log("Redraw")
         this.requestRedraw();
         return;
       }
-      console.log("Redraw")
 
       this._animControl.add(anim.rotate(this._cam.rotation(), 
                                         targetRotation4, ms));
-      console.log("Redraw")
       this.requestRedraw();
     }; 
   })(),
@@ -571,7 +568,6 @@ Viewer.prototype = {
       this.requestRedraw();
       return;
     }
-    console.log("Redraw")
     // in case it's a mat3, convert to mat4
     var rotation4;  
     if (rotation.length === 9) {
@@ -603,7 +599,6 @@ Viewer.prototype = {
       // only happens when viewer has been destroyed
       return;
     }
-    // console.log("Redraw")
     this._redrawRequested = false;
     this._animateCam();
     this._canvas.bind();

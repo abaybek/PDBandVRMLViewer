@@ -58,14 +58,8 @@ $.getJSON('data.json', function(data) {
         //     text: element.name
         // }));
         _coord[index] = element
-        console.log(index)
-        console.log(element)
     });
 });
-
-console.log(_coord)
-
-
 function points() {
   viewer.clear();
   var go = viewer.points('structure', structure, {
@@ -127,7 +121,6 @@ function ballsAndSticks() {
 }
 
 function preset() {
-  // console.log(_coord)
   viewer.clear();
   var ligand = structure.select({'rnames' : ['RVP', 'SAH', 'CRO']});
 
@@ -143,7 +136,7 @@ function preset() {
       hydro_bonds.addSphere([_coord.x[i], _coord.y[i], _coord.z[i]], 0.1, { color : [255, 237, 0]}); 
     }
     // helix.addSphere([x,y,z], 0.1, { color : [0, 0, 0]});
-    console.log('Ready and ready for the bomb');
+    
   });
 
 //   viewer.on('viewerReady', function() {
@@ -256,8 +249,50 @@ function hemilight() {
   viewer.options('style', 'hemilight');
   viewer.requestRedraw();
 }
+function showInfo(){
+  tmp_v = viewer._cam._rotation;
+  // tmp = viewer._cam._modelView
+  // tmp = viewer._cam._camModelView
+  for(var i=0; i<4; i++){
+      console.log(tmp_v[4*i+0], tmp_v[4*i+1], tmp_v[4*i+2], tmp_v[4*i+3]);
+  }
+  var data = {_camView: tmp_v};
+  var json = JSON.stringify(data);
+  var blob = new Blob([json], {type: "application/json"});
+  var url  = URL.createObjectURL(blob);
+
+  var a = document.createElement('a');
+  a.download    = "camPos.json";
+  a.href        = url;
+  a.textContent = "Download Cam Pos";
+  document.getElementById('content').appendChild(a);
+}
+
+function moveCam(){
+  function getArray(){
+    return $.getJSON('camPos.json');
+  }
+  
+  getArray().done(function(json) {
+    // now you can use json
+    var camPos = [];
+    console.log()
+    $.each(json._camView, function(key, val) {
+        camPos[key] = val;
+    });
+    mtr = camPos;
+    viewer.setRotation(mtr, 100);
+  })
+  .fail(function(){
+  mtr = [1,0,0,0,1,0,0,0,1];
+  viewer.setRotation(mtr, 100);
+  });
+  
+}
 
 $(document).foundation();
+$('#save-coordinate').click(showInfo);
+$('#move-coordinate').click(moveCam);
 $('#style-preset').click(preset);
 $('#style-cartoon').click(cartoon);
 $('#style-tube').click(tube);
@@ -290,6 +325,8 @@ $('#load-from-pdb').change(function() {
   load(pdbId)
 });
 
+
+
 viewer = pv.Viewer(document.getElementById('viewer'), { 
     width : 'auto', height: 'auto', antialias : true, fog : true,
     outline : true, quality : 'high', style : 'phong',
@@ -304,7 +341,7 @@ load(47)
 
 
 viewer.on('doubleClick', function(picked) {
-  console.log(picked.connectivity());
+  // console.log(picked.connectivity());
   if (picked === null) {
     viewer.fitTo(structure);
     return;
