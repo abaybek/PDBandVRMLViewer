@@ -1,0 +1,4361 @@
+#VRML V2.0 utf8
+
+Viewpoint {
+ position 0 0 -0.00000000
+ orientation 1 0 0 0
+ description "Z view"
+ fieldOfView 0.465421
+}
+DirectionalLight {
+ direction -0.348155 -0.348155   -0.870
+}
+NavigationInfo {
+ headlight TRUE
+ type "EXAMINE"
+}
+Transform {
+ translation 25.901985 28.735872 35.630333
+ rotation 0.212940 0.000000 0.977065 0.459565
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 26.162018 28.198126 35.573662
+ rotation -0.212940 0.000000 -0.977065 2.682028
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 25.641953 29.273621 35.687000
+ rotation 0.212940 0.000000 0.977065 0.459565
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 26.422050 27.660378 35.516994
+ rotation -0.212940 0.000000 -0.977065 2.682028
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 28.483927 26.341949 35.899162
+ rotation 0.235908 0.000000 -0.971776 1.971600
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149998
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 27.947073 26.576050 35.768837
+ rotation -0.235908 0.000000 0.971776 1.169992
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149998
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 29.020782 26.107851 36.029491
+ rotation 0.235904 0.000000 -0.971776 1.971607
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 27.410217 26.810148 35.638508
+ rotation -0.235904 0.000000 0.971776 1.169985
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 29.520605 25.889900 36.150826
+ rotation 0.235918 0.000000 -0.971773 1.971594
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.067225
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.033612 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.033612 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 26.910395 27.028099 35.517174
+ rotation -0.235918 0.000000 0.971773 1.169999
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.067225
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.033612 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.033612 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 28.164671 26.733467 34.720291
+ rotation -0.446188 0.000000 -0.894939 1.804693
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 27.642328 26.872532 34.980713
+ rotation 0.446188 0.000000 0.894939 1.336900
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 28.687012 26.594404 34.459869
+ rotation -0.446188 0.000000 -0.894939 1.804705
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 27.119987 27.011595 35.241135
+ rotation 0.446188 0.000000 0.894939 1.336887
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 33.271862 30.408258 36.076885
+ rotation 0.921125 0.000000 0.389267 1.183674
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 33.488140 30.181742 35.565113
+ rotation -0.921125 0.000000 -0.389267 1.957919
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 33.055580 30.634775 36.588661
+ rotation 0.921125 0.000000 0.389267 1.183674
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 33.704422 29.955225 35.053337
+ rotation -0.921125 0.000000 -0.389267 1.957919
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 33.895107 32.206394 36.889290
+ rotation -0.081368 0.000000 -0.996684 0.621525
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 33.546894 31.718605 36.917713
+ rotation 0.081368 0.000000 0.996684 2.520060
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149998
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 34.243317 32.694187 36.860867
+ rotation -0.081321 0.000000 -0.996688 0.621544
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 33.198685 31.230812 36.946133
+ rotation 0.081321 0.000000 0.996688 2.520049
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 33.675514 30.205755 37.284462
+ rotation -0.372267 0.000000 0.928126 0.953079
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 34.129486 29.858248 37.466537
+ rotation 0.372267 0.000000 -0.928126 2.188513
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 33.221550 30.553265 37.102379
+ rotation -0.372267 0.000000 0.928126 0.953069
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 34.583450 29.510738 37.648621
+ rotation 0.372267 0.000000 -0.928126 2.188524
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.872265 28.906542 36.082863
+ rotation -0.552485 0.000000 -0.833522 0.600357
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.589733 28.411459 36.270134
+ rotation 0.552485 0.000000 0.833522 2.541236
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 25.154799 29.401621 35.895584
+ rotation -0.552475 0.000000 -0.833529 0.600365
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.307199 27.916380 36.457413
+ rotation 0.552475 0.000000 0.833529 2.541227
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 28.116543 26.884529 38.419083
+ rotation -0.175172 0.000000 0.984538 0.939623
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 28.593456 26.530472 38.503922
+ rotation 0.175172 0.000000 -0.984538 2.201970
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 27.639629 27.238585 38.334240
+ rotation -0.175142 0.000000 0.984543 0.939630
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 29.070370 26.176416 38.588764
+ rotation 0.175142 0.000000 -0.984543 2.201962
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 27.188086 27.573807 38.253910
+ rotation -0.175149 0.000000 0.984542 0.939618
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.086166
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.043083 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.043083 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 29.521914 25.841194 38.669094
+ rotation 0.175149 0.000000 -0.984542 2.201975
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.086166
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.043083 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.043083 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 25.098669 28.188522 42.320942
+ rotation -0.632990 0.000000 -0.774160 1.758499
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.642328 28.300476 42.694057
+ rotation 0.632990 0.000000 0.774160 1.383094
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 25.555012 28.076567 41.947823
+ rotation -0.632984 0.000000 -0.774165 1.758497
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.185986 28.412432 43.067177
+ rotation 0.632984 0.000000 0.774165 1.383096
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 26.105486 28.924822 42.013859
+ rotation -0.983065 0.000000 0.183258 2.699646
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 26.152514 29.467176 42.266140
+ rotation 0.983065 0.000000 -0.183258 0.441947
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 26.058458 28.382471 41.761581
+ rotation -0.983065 0.000000 0.183258 2.699646
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 26.199541 30.009527 42.518417
+ rotation 0.983065 0.000000 -0.183258 0.441947
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 21.998096 25.869287 41.489037
+ rotation -0.316615 0.000000 -0.948554 2.248970
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 21.554905 26.245710 41.636963
+ rotation 0.316615 0.000000 0.948554 0.892623
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 22.441292 25.492863 41.341103
+ rotation -0.316620 0.000000 -0.948553 2.248977
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 21.111710 26.622135 41.784897
+ rotation 0.316620 0.000000 0.948553 0.892615
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 23.641220 24.987902 42.097672
+ rotation -0.767247 0.000000 0.641351 1.462579
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.023781 24.923098 42.555328
+ rotation 0.767247 0.000000 -0.641351 1.679014
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 23.258663 25.052704 41.640015
+ rotation -0.767247 0.000000 0.641351 1.462579
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.406338 24.858295 43.012985
+ rotation 0.767247 0.000000 -0.641351 1.679014
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 33.188850 29.250488 34.091248
+ rotation 0.650344 0.000000 -0.759640 1.029833
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 32.798149 28.941513 33.756752
+ rotation -0.650344 0.000000 0.759640 2.111760
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 33.579544 29.559464 34.425751
+ rotation 0.650361 0.000000 -0.759625 1.029841
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 32.407455 28.632538 33.422249
+ rotation -0.650361 0.000000 0.759625 2.111751
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 34.294125 29.570503 35.944721
+ rotation -0.947890 0.000000 0.318599 1.411782
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150003
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 34.482876 29.475494 36.506283
+ rotation 0.947890 0.000000 -0.318599 1.729811
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150003
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 34.105373 29.665512 35.383167
+ rotation -0.947887 0.000000 0.318607 1.411778
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 34.671627 29.380486 37.067837
+ rotation 0.947887 0.000000 -0.318607 1.729815
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 33.938499 29.749506 34.886696
+ rotation -0.947902 0.000000 0.318563 1.411806
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.010915
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.005457 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.005457 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 34.838501 29.296492 37.564308
+ rotation 0.947902 0.000000 -0.318563 1.729786
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.010915
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.005457 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.005457 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 34.791580 31.152273 34.172794
+ rotation -0.473985 0.000000 -0.880533 0.655778
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 34.469421 30.676725 34.346203
+ rotation 0.473985 0.000000 0.880533 2.485815
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 35.113739 31.627821 33.999390
+ rotation -0.473953 0.000000 -0.880550 0.655768
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 34.147263 30.201178 34.519608
+ rotation 0.473953 0.000000 0.880550 2.485825
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 19.513834 26.179815 41.036461
+ rotation -0.613435 0.000000 0.789745 2.081692
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 19.927168 26.473185 41.357536
+ rotation 0.613435 0.000000 -0.789745 1.059901
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 19.100498 25.886444 40.715393
+ rotation -0.613435 0.000000 0.789745 2.081692
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 20.340504 26.766556 41.678604
+ rotation 0.613435 0.000000 -0.789745 1.059901
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.453060 23.855635 43.873363
+ rotation -0.784338 0.000000 -0.620334 0.511295
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.270939 23.332365 44.103634
+ rotation 0.784338 0.000000 0.620334 2.630298
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.635181 24.378904 43.643101
+ rotation -0.784338 0.000000 -0.620334 0.511295
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.088818 22.809095 44.333897
+ rotation 0.784338 0.000000 0.620334 2.630298
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.185707 26.065262 44.365761
+ rotation 0.836101 0.000000 0.548576 0.706139
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.399292 25.608738 44.040237
+ rotation -0.836101 0.000000 -0.548576 2.435453
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 23.972122 26.521786 44.691288
+ rotation 0.836101 0.000000 0.548576 0.706148
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 24.612877 25.152214 43.714710
+ rotation -0.836101 0.000000 -0.548576 2.435445
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 25.365128 24.103806 42.802719
+ rotation 0.746914 0.000000 0.664921 0.904994
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 25.678871 23.733192 42.450279
+ rotation -0.746914 0.000000 -0.664921 2.236599
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 25.051384 24.474422 43.155151
+ rotation 0.746914 0.000000 0.664921 0.904994
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 25.992615 23.362576 42.097847
+ rotation -0.746914 0.000000 -0.664921 2.236599
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 26.348234 25.788668 44.044025
+ rotation 0.349004 0.000000 -0.937121 1.034963
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 25.864767 25.482332 43.863979
+ rotation -0.349004 0.000000 0.937121 2.106630
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 26.831701 26.095003 44.224075
+ rotation 0.349004 0.000000 -0.937121 1.034963
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 25.381300 25.175997 43.683929
+ rotation -0.349004 0.000000 0.937121 2.106630
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 30.214735 26.940563 41.964764
+ rotation -0.768159 0.000000 -0.640259 1.783855
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 29.839266 27.067436 42.415241
+ rotation 0.768159 0.000000 0.640259 1.357737
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 30.590202 26.813694 41.514290
+ rotation -0.768159 0.000000 -0.640259 1.783855
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 29.463799 27.194305 42.865715
+ rotation 0.768159 0.000000 0.640259 1.357737
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 29.745537 25.748707 37.157280
+ rotation -0.999977 0.000000 -0.006809 1.528427
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149998
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 29.741463 25.723293 37.756721
+ rotation 0.999977 0.000000 0.006809 1.613165
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149998
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 29.749615 25.774124 36.557831
+ rotation -0.999977 0.000000 -0.006796 1.528427
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149998
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 29.737385 25.697876 38.356171
+ rotation 0.999977 0.000000 0.006796 1.613165
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149998
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.074999 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 30.197590 26.088953 39.670204
+ rotation -0.901431 0.000000 0.432923 1.933869
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 30.440411 26.302046 40.175797
+ rotation 0.901431 0.000000 -0.432923 1.207724
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 29.954769 25.875862 39.164604
+ rotation -0.901431 0.000000 0.432923 1.933869
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 30.683231 26.515137 40.681396
+ rotation 0.901431 0.000000 -0.432923 1.207724
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150000
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 26.172075 24.415680 39.303711
+ rotation -0.316014 0.000000 -0.948754 1.551862
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 25.602926 24.404320 39.493286
+ rotation 0.316014 0.000000 0.948754 1.589731
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 26.741226 24.427044 39.114136
+ rotation -0.316014 0.000000 -0.948754 1.551862
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 25.033775 24.392956 39.682861
+ rotation 0.316014 0.000000 0.948754 1.589731
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 28.220104 24.926464 38.853329
+ rotation 0.096161 0.000000 0.995366 2.032105
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 28.754894 25.193539 38.801670
+ rotation -0.096161 0.000000 -0.995366 1.109488
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.150001
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075001 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 27.685310 24.659389 38.904984
+ rotation 0.096134 0.000000 0.995368 2.032111
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
+Transform {
+ translation 29.289688 25.460613 38.750015
+ rotation -0.096134 0.000000 -0.995368 1.109481
+ children [
+  Shape {
+   geometry Cylinder {
+    radius 0.000000
+    height 0.149999
+    bottom FALSE
+    top    FALSE
+   }
+   appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+   }
+  }
+  Transform {
+   translation 0.0 0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+  Transform {
+   translation 0.0 -0.075000 0.0
+   children Shape {
+    geometry Sphere { radius 0.000000 }
+    appearance Appearance {
+   material Material { diffuseColor 1.0000 1.0000 0.0000 
+                       specularColor 0.8 0.8 0.8 
+                       shininess 0.8 }
+    }
+   }
+  }
+ ]
+}
