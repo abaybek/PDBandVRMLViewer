@@ -146,16 +146,25 @@ function preset() {
     var hydro_bonds = viewer.customMesh('custom');
     // console.log('---------')
     for( var i = 0; i < _coord.x.length; i++){
-      console.log(_coord.x[i], _coord.y[i], _coord.z[i])
+      // console.log(_coord.x[i], _coord.y[i], _coord.z[i])
       hydro_bonds.addSphere([_coord.x[i], _coord.y[i], _coord.z[i]], 0.1, { color : [255, 237, 0]}); 
     }
     // console.log('--------')
     // console.log()
+    console.log(_tubes)
     for( var i = 0; i < _tubes.data.length; i++){
       // console.log('--------')
-      tmp = _tubes.data[i].translation;
-      // console.log(tmp[])
-      hydro_bonds.addSphere([parseFloat(tmp[0]),parseFloat(tmp[1]),parseFloat(tmp[2])], 0.1, { color : [0, 237, 255]}); 
+      trans = _tubes.data[i].translation;
+      angle = _tubes.data[i].rotation;
+      height = _tubes.data[i].height;
+      point = [parseFloat(trans[0]),parseFloat(trans[1]),parseFloat(trans[2])]
+      rot_angle = [parseFloat(angle[0]),parseFloat(angle[1]),parseFloat(angle[2]),parseFloat(angle[3])]
+      height = height / 2
+      point1 = [point[0]+height*Math.cos(rot_angle[0]*rot_angle[3]), point[1]+height, point[2]+height*Math.sin(rot_angle[2]*rot_angle[3])]
+      point2 = [point[0]-height*Math.cos(rot_angle[0]*rot_angle[3]), point[1]-height, point[2]-height*Math.sin(rot_angle[2]*rot_angle[3])]
+      
+      hydro_bonds.addTube(point1, point2, 0.1, { cap : true, color : 'red' });
+      hydro_bonds.addSphere(point, 0.2, { color : [0, 237, 255]}); 
     }
     // helix.addSphere([x,y,z], 0.1, { color : [0, 0, 0]});
     
