@@ -52,6 +52,7 @@ var structure;
 // console.log(jqxhr)
 
 var _coord = {}
+var _tubes = {}
 $.getJSON('data.json', function(data) {
     $.each(data, function(index, element) {
         // $('body').append($('<div>', {
@@ -60,6 +61,17 @@ $.getJSON('data.json', function(data) {
         _coord[index] = element
     });
 });
+
+$.getJSON('parser/coord.json', function(data) {
+    // console.log('-----')
+    // console.log(data)
+    // console.log('-----')
+    $.each(data, function(index, element){
+      _tubes[index] = element
+    })
+});
+
+
 function points() {
   viewer.clear();
   var go = viewer.points('structure', structure, {
@@ -132,8 +144,18 @@ function preset() {
 
   viewer.on('viewerReady', function() {
     var hydro_bonds = viewer.customMesh('custom');
+    // console.log('---------')
     for( var i = 0; i < _coord.x.length; i++){
+      console.log(_coord.x[i], _coord.y[i], _coord.z[i])
       hydro_bonds.addSphere([_coord.x[i], _coord.y[i], _coord.z[i]], 0.1, { color : [255, 237, 0]}); 
+    }
+    // console.log('--------')
+    // console.log()
+    for( var i = 0; i < _tubes.data.length; i++){
+      // console.log('--------')
+      tmp = _tubes.data[i].translation;
+      // console.log(tmp[])
+      hydro_bonds.addSphere([parseFloat(tmp[0]),parseFloat(tmp[1]),parseFloat(tmp[2])], 0.1, { color : [0, 237, 255]}); 
     }
     // helix.addSphere([x,y,z], 0.1, { color : [0, 0, 0]});
     
