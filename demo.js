@@ -71,6 +71,21 @@ $.getJSON('parser/coord.json', function(data) {
     })
 });
 
+function getPos(){
+	return $.getJSON('parser/coord.json');
+}
+  
+getPos().done(function(json) {
+	// now you can use json
+	var camPos = [];
+	$.each(json, function(key, val) {
+	    _tubes[key] = val
+	});
+})
+.fail(function(){
+	console.log('Coordinate loading is failed!')
+});
+
 
 function points() {
   viewer.clear();
@@ -151,17 +166,23 @@ function preset() {
     }
     // console.log('--------')
     // console.log()
-    console.log(_tubes)
-    for( var i = 0; i < _tubes.data.length; i++){
+    // console.log(_tubes)
+    for( var i = 0; i < _tubes.data.length; i++){ // last one didnt calculated
       // console.log('--------')
       trans = _tubes.data[i].translation;
+      height = parseFloat(_tubes.data[i].height);
       angle = _tubes.data[i].rotation;
-      height = _tubes.data[i].height;
+      // trans2 = _tubes.data[i+1].translation;
+      // console.log(Math.pow((trans[0] - trans2[0]), 2))
+      // dist = Math.sqrt(Math.pow((trans[0] - trans2[0]), 2) + Math.pow((trans[1] - trans2[1]), 2) + Math.pow((trans[2] - trans2[2]), 2))
+      // console.log(dist, height)
+
+
       point = [parseFloat(trans[0]),parseFloat(trans[1]),parseFloat(trans[2])]
       rot_angle = [parseFloat(angle[0]),parseFloat(angle[1]),parseFloat(angle[2]),parseFloat(angle[3])]
       height = height / 2
-      point1 = [point[0]+height*Math.cos(rot_angle[0]*rot_angle[3]), point[1]+height, point[2]+height*Math.sin(rot_angle[2]*rot_angle[3])]
-      point2 = [point[0]-height*Math.cos(rot_angle[0]*rot_angle[3]), point[1]-height, point[2]-height*Math.sin(rot_angle[2]*rot_angle[3])]
+      point1 = [point[0]+height*Math.cos(rot_angle[0]*rot_angle[3]), point[1]+height, point[2]+height*Math.cos(rot_angle[2]*rot_angle[3])]
+      point2 = [point[0]-height*Math.cos(rot_angle[0]*rot_angle[3]), point[1]-height, point[2]-height*Math.cos(rot_angle[2]*rot_angle[3])]
       
       hydro_bonds.addTube(point1, point2, 0.1, { cap : true, color : 'red' });
       hydro_bonds.addSphere(point, 0.2, { color : [0, 237, 255]}); 
@@ -282,12 +303,15 @@ function hemilight() {
 }
 function showInfo(){
   tmp_v = viewer._cam._rotation;
+  tmp_z = viewer._cam._zoom;
   // tmp = viewer._cam._modelView
   // tmp = viewer._cam._camModelView
   for(var i=0; i<4; i++){
       console.log(tmp_v[4*i+0], tmp_v[4*i+1], tmp_v[4*i+2], tmp_v[4*i+3]);
+      console.log(tmp_z);
   }
-  var data = {_camView: tmp_v};
+  var int_zoom = Math.round(tmp_z)
+  var data = {_camView: tmp_v, _zoom: int_zoom};
   var json = JSON.stringify(data);
   var blob = new Blob([json], {type: "application/json"});
   var url  = URL.createObjectURL(blob);
@@ -312,11 +336,12 @@ function moveCam(){
         camPos[key] = val;
     });
     mtr = camPos;
-    viewer.setRotation(mtr, 100);
+    viewer.setRotation(mtr, 500);
+    viewer.setZoom(json._zoom);
   })
   .fail(function(){
   mtr = [1,0,0,0,1,0,0,0,1];
-  viewer.setRotation(mtr, 100);
+  viewer.setRotation(mtr, 500);
   });
   
 }
