@@ -21,6 +21,7 @@ var io = pv.io;
 var viewpoint = pv.viewpoint;
 var color = pv.color;
 var structure;
+var structure2;
 
 
 
@@ -151,33 +152,25 @@ function preset() {
   viewer.clear();
   var ligand = structure.select({'rnames' : ['RVP', 'SAH', 'CRO']});
 
+  var go = viewer.lines('structure2', structure2, {
+              color: color.byResidueProp('num'),
+              showRelated : '1' });
+  go.setSelection(go.select({rnumRange : [15,20]}));
+  go.setOpacity(0.5, go.select({rnumRange : [25,30]}));
+  
   viewer.ballsAndSticks('structure.ligand', ligand);
-  // var lines = structure.select({'rnames' : ['THR', 'ASP', 'GLY', 'SER']})
-  // viewer.lines('structure.ca', lines,
-  //           { color: color.uniform('blue'), lineWidth : 1,
-  //             showRelated : '1' });
-
+  
   viewer.on('viewerReady', function() {
     var hydro_bonds = viewer.customMesh('custom');
-    // console.log('---------')
     for( var i = 0; i < _coord.x.length; i++){
-      // console.log(_coord.x[i], _coord.y[i], _coord.z[i])
       hydro_bonds.addSphere([_coord.x[i], _coord.y[i], _coord.z[i]], 0.1, { color : [255, 237, 0]}); 
     }
-    // console.log('--------')
-    // console.log()
-    // console.log(_tubes)
     for( var i = 0; i < _tubes.data.length; i++){ // last one didnt calculated
       // console.log('--------')
       trans = _tubes.data[i].translation;
       height = parseFloat(_tubes.data[i].height);
       angle = _tubes.data[i].rotation;
-      // trans2 = _tubes.data[i+1].translation;
-      // console.log(Math.pow((trans[0] - trans2[0]), 2))
-      // dist = Math.sqrt(Math.pow((trans[0] - trans2[0]), 2) + Math.pow((trans[1] - trans2[1]), 2) + Math.pow((trans[2] - trans2[2]), 2))
-      // console.log(dist, height)
-
-
+  
       point = [parseFloat(trans[0]),parseFloat(trans[1]),parseFloat(trans[2])]
       rot_angle = [parseFloat(angle[0]),parseFloat(angle[1]),parseFloat(angle[2]),parseFloat(angle[3])]
       height = height / 2
@@ -228,15 +221,12 @@ function preset() {
 
 function load(pdb_id) {
   $.ajax({ url : 'pdbs/'+pdb_id+'.pdb', success : function(data) {  
-	//Abay **
-    structure = io.pdb(data);
-
-    // mol.assignHelixSheet(structure);
+	structure = io.pdb(data);
+	}});
+  $.ajax({ url : 'pdbs/'+'mod'+'.pdb', success : function(data) {  
+    structure2 = io.pdb(data);
     preset();
-    // console.log(structure.select({'rnames' : ['RVP', 'SAH']}));
-    // console.log(structure.select({ aname : 'CA', rtype : 'C'}));
-    // viewer.spheres('helices', structure.select({ aname : 'CA', rtype : 'C'}), { color : color.uniform('red'), radiusMultiplier : 0.3, showRelated : '1' });
-    viewer.spheres('helices', structure.select({rnames : ['RVP', 'SAH']}), { color : color.uniform('red'), radiusMultiplier : 0.3, showRelated : '1' });
+    viewer.spheres('helices', structure2.select({rnames : ['RVP', 'SAH']}), { color : color.uniform('red'), radiusMultiplier : 0.3, showRelated : '1' });
     viewer.autoZoom();
   }});
 }
@@ -343,6 +333,14 @@ function moveCam(){
   mtr = [1,0,0,0,1,0,0,0,1];
   viewer.setRotation(mtr, 500);
   });
+
+  var img = document.createElement("IMG");
+  img.src = "image.png";
+  img.id = "image"
+  // $("IMG").css({"background-color": "yellow", "font-size": "200%", "position": "absolute", "top": 0, "bottom": 0}); 
+  // img.style.color = "blue";
+  document.getElementById('viewer').appendChild(img);
+
   
 }
 
