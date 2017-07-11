@@ -260,6 +260,7 @@ function moveCam(){
     mtr = camPos;
     viewer.setRotation(mtr, 500);
     viewer.setZoom(json._zoom);
+    viewer.setCenter(json._center);
   })
   .fail(function(){
   mtr = [1,0,0,0,1,0,0,0,1];
