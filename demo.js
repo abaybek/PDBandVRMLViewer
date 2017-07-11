@@ -165,56 +165,9 @@ function preset() {
     for( var i = 0; i < _coord.x.length; i++){
       hydro_bonds.addSphere([_coord.x[i], _coord.y[i], _coord.z[i]], 0.1, { color : [255, 237, 0]}); 
     }
-    // for( var i = 0; i < _tubes.data.length; i++){ // last one didnt calculated
-    //   // console.log('--------')
-    //   trans = _tubes.data[i].translation;
-    //   height = parseFloat(_tubes.data[i].height);
-    //   angle = _tubes.data[i].rotation;
-  
-    //   point = [parseFloat(trans[0]),parseFloat(trans[1]),parseFloat(trans[2])]
-    //   rot_angle = [parseFloat(angle[0]),parseFloat(angle[1]),parseFloat(angle[2]),parseFloat(angle[3])]
-    //   height = height / 2
-    //   point1 = [point[0]+height*Math.cos(rot_angle[0]*rot_angle[3]), point[1]+height, point[2]+height*Math.cos(rot_angle[2]*rot_angle[3])]
-    //   point2 = [point[0]-height*Math.cos(rot_angle[0]*rot_angle[3]), point[1]-height, point[2]-height*Math.cos(rot_angle[2]*rot_angle[3])]
-      
-    //   hydro_bonds.addTube(point1, point2, 0.1, { cap : true, color : 'red' });
-    //   hydro_bonds.addSphere(point, 0.2, { color : [0, 237, 255]}); 
-    // }
-    // helix.addSphere([x,y,z], 0.1, { color : [0, 0, 0]});
     
   });
 
-//   viewer.on('viewerReady', function() {
-//   var helix = viewer.customMesh('custom');
-//   for (var i = -50; i < 50; ++i) {
-//     var x = Math.cos(i * 0.4);
-//     var y = i * 0.1;
-//     var z = Math.sin(i * 0.4);
-//     var color = i * 0.01 + 0.5;
-//     // add sphere at the given position with a radius of 0.1
-//     helix.addSphere([x,y,z], 0.1, { color : [color, color, 0]});
-
-//     // add a capped tube  in the center of the helix with a
-//     // radius of 0.1
-//     helix.addTube([0, -5, 0], [0, 5, 0], 0.1,
-//                   { cap : true, color : 'blue' });
-
-//     // set zoom to a pre-determined value. Alternatively,
-//     // viewer.autoZoom() can be used.
-//     viewer.setZoom(14);
-//   }
-// });
-
-// var obj = viewer.get('custom');
-// var sum = vec3.create();
-// var count = 0;
-// obj.eachCentralAtom(function(atom, transformedPos) {
-//   count += 1;
-//   vec3.add(sum, sum, transformedPos);
-// });
-// var center = vec3.scale(sum, sum, 1.0/count);
-// console.log('center' , center)
-// viewer.setCenter(center);
 
   viewer.cartoon('structure.protein', structure, { boundingSpheres: false });
 }
@@ -291,31 +244,10 @@ function hemilight() {
   viewer.options('style', 'hemilight');
   viewer.requestRedraw();
 }
-function showInfo(){
-  tmp_v = viewer._cam._rotation;
-  tmp_z = viewer._cam._zoom;
-  // tmp = viewer._cam._modelView
-  // tmp = viewer._cam._camModelView
-  for(var i=0; i<4; i++){
-      console.log(tmp_v[4*i+0], tmp_v[4*i+1], tmp_v[4*i+2], tmp_v[4*i+3]);
-      console.log(tmp_z);
-  }
-  var int_zoom = Math.round(tmp_z)
-  var data = {_camView: tmp_v, _zoom: int_zoom};
-  var json = JSON.stringify(data);
-  var blob = new Blob([json], {type: "application/json"});
-  var url  = URL.createObjectURL(blob);
-
-  var a = document.createElement('a');
-  a.download    = "camPos.json";
-  a.href        = url;
-  a.textContent = "Download Cam Pos";
-  document.getElementById('content').appendChild(a);
-}
 
 function moveCam(){
   function getArray(){
-    return $.getJSON('camPos.json');
+    return $.getJSON('pdbs/camPos.json');
   }
   
   getArray().done(function(json) {
@@ -335,17 +267,16 @@ function moveCam(){
   });
 
   var img = document.createElement("IMG");
-  img.src = "image.png";
+  img.src = "pdbs/image.png";
   img.id = "image"
-  // $("IMG").css({"background-color": "yellow", "font-size": "200%", "position": "absolute", "top": 0, "bottom": 0}); 
-  // img.style.color = "blue";
   document.getElementById('viewer').appendChild(img);
-
-  
+  img.onclick = function(){
+  	$("#image").remove();
+  }
 }
 
 $(document).foundation();
-$('#save-coordinate').click(showInfo);
+// $('#save-coordinate').click(showInfo);
 $('#move-coordinate').click(moveCam);
 $('#style-preset').click(preset);
 $('#style-cartoon').click(cartoon);
