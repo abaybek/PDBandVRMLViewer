@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>FLUORESCENT PROTEIN</title>
+    <title>VIEWER</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <script src='js/jquery-2.0.2.min.js'></script>
@@ -14,6 +14,7 @@
         padding:0px;
         margin:0px;
         height: 100%;
+        /*width: 900px;*/
       }
       #viewer {
         position:absolute;
@@ -34,15 +35,6 @@
       	margin: 0px;
       	padding: 0px;
       }
-      /*#traj-widget {
-        width: 200px;
-        height: 20px;
-        background: #aaa;
-        position: absolute;
-        top: 50px;
-        left: 50px;
-        display: none;
-      }*/
     </style>
     </head>
     <body>
@@ -51,37 +43,14 @@
 <nav class="top-bar" data-topbar role="navigation">
   <ul class="title-area">
     <li class="name">
-      <h1><a href="#">GREEN FLUORESCENT PROTEIN FROM AEQUOREA VICTORIA</a></h1>
+      <!-- <h1><a href="#">GREEN FLUORESCENT PROTEIN FROM AEQUOREA VICTORIA</a></h1> -->
     </li>
      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
   </ul>
 
   <section class="top-bar-section">
-    <!-- Right Nav Section -->
-    <ul class=left>
-<!-- 	<div class="row collapse">
-	    <div class="large-8 small-9 columns">
-	      <input type="text" id=load-from-pdb placeholder="1ake">
-	    </div>
-	    <div class="large-4 small-3 columns">
-	      <a href="#" class="alert button expand">Get</a>
-	    </div>
-  	</div> -->
-    </ul>
     <ul class="right">
-<!--       <li class="has-dropdown">
-        <a href="#">Load</a>
-        <ul class="dropdown">
-          <li><a id=47 href="#">47</a></li>
-          <li><a id=50 href="#">50</a></li>
-          <li><a id=51 href="#">51</a></li>
-          <li><a id=52 href="#">52</a></li>
-          <li><a id=54 href="#">54</a></li>
-          <li><a id=55 href="#">55</a></li>
-          <li><a id=55_1 href="#">55_1</a></li>
-        </ul>
-      </li> -->
 	  <li id=content></li>
       <li><a id=save-coordinate href="#">Save Coordinate</a></li>
       <li><a id=move-coordinate href="#">Move Coordinate</a></li>
