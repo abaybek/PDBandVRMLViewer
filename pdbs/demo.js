@@ -3,9 +3,9 @@ requirejs.config({
   // uncomment the following commented-out block to test the contatenated, 
   // minified PV version. Grunt needs to be run before for this to work.
   
-  // paths : {
-  //   pv : '/js/bio-pv.min'
-  // }
+  paths : {
+    pv : '/js/bio-pv.min'
+  }
   
 });
 
@@ -24,68 +24,12 @@ var structure;
 var structure2;
 
 
-
-
-
-// var jqxhr = $.getJSON( "data.json", function() {
-//   console.log( "success" );
-// })
-//   .done(function(data) {
-//     $.each(data.items, function(i, item) {
-//       console.log(item);
-//     })
-
-//     console.log( "second success" );
-//   })
-//   .fail(function() {
-//     console.log( "error" );
-//   })
-//   .always(function() {
-//     console.log( "complete" );
-//   });
- 
-// // Perform other work here ...
- 
-// // Set another completion function for the request above
-// jqxhr.complete(function() {
-//   console.log( "second complete" );
-// });
-// console.log(jqxhr)
-
 var _coord = {}
-// var _tubes = {}
-$.getJSON('data.json', function(data) {
+$.getJSON('pdbs/data.json', function(data) {
     $.each(data, function(index, element) {
-        // $('body').append($('<div>', {
-        //     text: element.name
-        // }));
         _coord[index] = element
     });
 });
-
-// $.getJSON('parser/coord.json', function(data) {
-//     // console.log('-----')
-//     // console.log(data)
-//     // console.log('-----')
-//     $.each(data, function(index, element){
-//       _tubes[index] = element
-//     })
-// });
-
-// function getPos(){
-// 	return $.getJSON('parser/coord.json');
-// }
-  
-// getPos().done(function(json) {
-// 	// now you can use json
-// 	var camPos = [];
-// 	$.each(json, function(key, val) {
-// 	    _tubes[key] = val
-// 	});
-// })
-// .fail(function(){
-// 	console.log('Coordinate loading is failed!')
-// });
 
 
 function points() {
@@ -110,7 +54,6 @@ function cartoon() {
       color : color.ssSuccession(), showRelated : '1',
   });
   var rotation = viewpoint.principalAxes(go, 5);
-  //go.setSelection(go.select({rtype : 'C' }));
   viewer.setRotation(rotation)
 }
 
@@ -252,13 +195,7 @@ function moveCam(){
   
   getArray().done(function(json) {
     // now you can use json
-    var camPos = [];
-    console.log()
-    $.each(json._camView, function(key, val) {
-        camPos[key] = val;
-    });
-    mtr = camPos;
-    viewer.setRotation(mtr, 500);
+    viewer.setRotation(json._camView, 500);
     viewer.setZoom(json._zoom);
     viewer.setCenter(json._center);
   })
@@ -277,7 +214,6 @@ function moveCam(){
 }
 
 $(document).foundation();
-// $('#save-coordinate').click(showInfo);
 $('#move-coordinate').click(moveCam);
 $('#style-preset').click(preset);
 $('#style-cartoon').click(cartoon);
@@ -301,17 +237,8 @@ $('#load-from-pdb').change(function() {
   var pdbId = this.value;
   this.value = '';
   this.blur();
-  // var url = 'http://www.rcsb.org/pdb/files/' + pdbId + '.pdb';
-  // console.log(url)
-  // io.fetchPdb(url, function(s) {
-  //   structure = s;
-  //   cartoon();
-  //   viewer.autoZoom();
-  // });
   load(pdbId)
 });
-
-
 
 viewer = pv.Viewer(document.getElementById('viewer'), { 
     width : 'auto', height: 'auto', antialias : true, fog : true,
@@ -321,13 +248,7 @@ viewer = pv.Viewer(document.getElementById('viewer'), {
 });
 load(47)
 
-// viewer = pv.Viewer(document.getElementById('viewer'), { 
-//     width : 'auto', height: 'auto', antialias : true, fog : true
-// });
-
-
 viewer.on('doubleClick', function(picked) {
-  // console.log(picked.connectivity());
   if (picked === null) {
     viewer.fitTo(structure);
     return;
