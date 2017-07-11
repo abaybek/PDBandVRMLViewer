@@ -294,6 +294,7 @@ function hemilight() {
 function showInfo(){
   tmp_v = viewer._cam._rotation;
   tmp_z = viewer._cam._zoom;
+  tmp_cent = viewer._cam._center;
   // tmp = viewer._cam._modelView
   // tmp = viewer._cam._camModelView
   for(var i=0; i<4; i++){
@@ -301,7 +302,7 @@ function showInfo(){
       console.log(tmp_z);
   }
   var int_zoom = Math.round(tmp_z)
-  var data = {_camView: tmp_v, _zoom: int_zoom};
+  var data = {_camView: tmp_v, _zoom: int_zoom, _center: tmp_cent};
   var json = JSON.stringify(data);
   var blob = new Blob([json], {type: "application/json"});
   var url  = URL.createObjectURL(blob);
