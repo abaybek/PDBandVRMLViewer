@@ -25,13 +25,13 @@ var structure2;
 
 
 var _coord = {}
-$.getJSON('pdbs/data.json', function(data) {
-    $.each(data, function(index, element) {
-        _coord[index] = element
-    });
-});
+// $.getJSON('pdbs/data.json', function(data) {    
+// });
 
-
+function getDataJson(){
+    return $.getJSON('pdbs/data.json');
+  }
+  
 function points() {
   viewer.clear();
   var go = viewer.points('structure', structure, {
@@ -93,23 +93,36 @@ function ballsAndSticks() {
 
 function preset() {
   viewer.clear();
-  var ligand = structure.select({'rnames' : ['RVP', 'SAH', 'CRO']});
-
+  // var ligand = structure.select({'rnames' : ['RVP', 'SAH', 'CRO']});
+  var go = viewer.ballsAndSticks('structure', structure, { showRelated : '1' });
+  
+  if(structure2!=null){
   var go = viewer.lines('structure2', structure2, {
               // color: color.byResidueProp('num'),
               showRelated : '1' });
   go.setSelection(go.select({rnumRange : [15,20]}));
   go.setOpacity(0.5, go.select({rnumRange : [25,30]}));
+  }
+  // viewer.ballsAndSticks('structure.ligand', ligand);
   
-  viewer.ballsAndSticks('structure.ligand', ligand);
-  
-  viewer.on('viewerReady', function() {
+
+  getDataJson().done(function(json) {
+  	$.each(json, function(index, element) {
+        _coord[index] = element
+    });
+      viewer.on('viewerReady', function() {
     var hydro_bonds = viewer.customMesh('custom');
     for( var i = 0; i < _coord.x.length; i++){
       hydro_bonds.addSphere([_coord.x[i], _coord.y[i], _coord.z[i]], 0.1, { color : [255, 237, 0]}); 
     }
     
   });
+  })
+  .fail(function(){
+  	console.log('Failed to get data.json')
+  });
+
+
 
 
   viewer.cartoon('structure.protein', structure, { boundingSpheres: false });
@@ -124,7 +137,13 @@ function load(pdb_id) {
     preset();
     viewer.spheres('helices', structure2.select({rnames : ['RVP', 'SAH']}), { color : color.uniform('red'), radiusMultiplier : 0.3, showRelated : '1' });
     viewer.autoZoom();
-  }});
+  },
+  error: function(data) {
+  	preset();
+    // viewer.spheres('helices', structure2.select({rnames : ['RVP', 'SAH']}), { color : color.uniform('red'), radiusMultiplier : 0.3, showRelated : '1' });
+    viewer.autoZoom();
+  }
+	});
 }
 
 function transferase() {
